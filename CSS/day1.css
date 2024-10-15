@@ -1,0 +1,44 @@
+@import url('reset.css');
+html{
+    font-family: 'Noto Serif TC', serif;
+}
+
+/******************天花板*******************/
+header{
+
+    height: 60px;
+    
+    background-color: #ECDFD3;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    border: 1px solid red;
+    /* margin: auto 0 auto 15px;     */
+}
+.logo a{
+    border: 1px solid blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+    /* align-items: center; */
+    /* height: 100%; 拉滿父元素的高度
+    width: 100%; 拉滿父元素的寬度
+     */
+}
+
+.topul li{
+    /* font-size: 15px; */
+    border: 1px solid red;
+}
+
+header ul{
+    
+    display: flex;
+    padding-right: 30px;
+
+}
+header li a{
+    /* border: 1px solid black; */
+    text-decoration: none;
+}
