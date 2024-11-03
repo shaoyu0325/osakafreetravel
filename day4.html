@@ -12,42 +12,9 @@
     <link rel="icon" href="./img/標籤圖片.jpg">
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/before.css">
+    <script src="./JS/index.js" defer></script>
     <title>OSAKA大阪自由行</title>   
-    <style>
-        body {
-            margin: 0;
-        }
-        .slider {
-            display: flex;
-            overflow: hidden;
-            width: 100vw; /* 容器寬度 */
-            position: relative;
-        }
-        .slider-wrapper {
-            display: flex;
-            animation: scroll 30s linear infinite; /* 滾動時間 */
-        }
-        .slide {
-        width:auto;
-            height: 250px; /* 設定每個滑塊的高度為 80 像素 */
-            display: flex;
-            justify-content: center; /* 垂直居中 */
-            align-items: center; /* 水平居中 */
-        }
-        .slide img {
-            width: auto; /* 自動寬度 */
-            height: 100%; /* 高度填滿容器 */
-            object-fit: cover; /* 讓圖片填滿容器 */
-        }
-        @keyframes scroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); } /* 滾動到一半 */
-        }
-        .slider{
-            margin-top: 60px;
-            margin-bottom: 100px;
-        }
-    </style>
 
 </head>
 <body>
@@ -55,7 +22,7 @@
     <header>
         <div class="logo">
             <h1>日本大阪</h1>
-            <a href="osaka_index.html">
+            <a href="index.html">
                 <img src="./img/1126733.png" alt="">
             </a>
             <h2>自由行!!</h2>
@@ -63,23 +30,26 @@
     </header>
 
 <!----------------------內頁部分1  (天數)--------------------->
-    <div class="topitem1">
-        <ul class="topul1">
-            <a href="before.html"><li class="before">行前準備</li></a>
-            <a href="day1.html"><li class="liday1">第1天</li></a>
-            <a href="day2.html"><li class="liday2">第2天</li></a>
-            <a href="day3.html"><li class="liday3">第3天</li></a>
-        </ul>
-    </div>
+<div class="topitem1">
+    <ul class="topul1">
+        <a href="before.html"><li class="before">行前準備</li></a>
+        <a href="day1.html"><li class="liday1">第1天<br><p class="day1p">(11/27)</p></li></a>
+        <a href="day2.html"><li class="liday2">第2天<br><p class="day2p">(11/28)</p></li></a>
+        <a href="day3.html"><li class="liday3">第3天<br><p class="day3p">(11/29)</p></li></a>
+    </ul>
+</div>
 
-    <div class="topitem2">
-        <ul class="topul2">
-            <a href="day4.html"><li class="liday4">第4天</li></a>
-            <a href="day5.html"><li class="liday5">第5天</li></a>
-            <a href="day6.html"><li class="liday6">第6天</li></a>
-            <a href="warming.html"><li class="warming">注意事項</li></a>
-        </ul>
-    </div>
+<div class="topitem2">
+    <ul class="topul2">
+        <a href="day4.html"><li class="liday4">第4天<br><p class="day4p">(11/30)</p></li></a>
+        <a href="day5.html"><li class="liday5">第5天<br><p class="day5p">(12/1)</p></li></a>
+        <a href="day6.html"><li class="liday6">第6天<br><p class="day6p">(12/2)</p></li></a>
+        <a href="warming.html"><li class="warming">注意事項</li></a>
+    </ul>
+</div>
+
+<!--------------------------虛線------------------------------>
+<div class="dashed"></div>
 
 <!-----------------------內頁部分2  (成員)--------------------------->
     
